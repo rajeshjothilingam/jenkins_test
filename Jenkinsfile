@@ -9,8 +9,8 @@ node {
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
       mvnHome = tool 'maven'
-       jdk "JDK8"
-      //env.JAVA_HOME="${tool 'jdk8'}"
+       //jdk "JDK8"
+      env.JAVA_HOME="${tool 'JDK8'}"
       env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"
       
    }
